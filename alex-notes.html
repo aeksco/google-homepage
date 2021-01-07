@@ -1,0 +1,100 @@
+<div class="topnav">
+  <ul>
+    <li><a class="header-link" href="#about">About</a></li>
+    <li><a class="header-link" href="store.asp">Store</a></li>
+  </ul>
+
+  <ul>
+    <li><a class="header-link" href="images.asp">Images</a></li>
+    <li><a class="header-link" href="gmail.asp">Gmail</a></li>
+  </ul>
+</div>
+
+<img
+  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+  alt="Google Logo"
+  class="center"
+/>
+
+<form class="form-wrapper" id="form">
+  <input type="search" id="query" class="search-input" name="q" />
+</form>
+
+<div class="btn-wrapper">
+  <button class="btn">Google Search</button>
+  <button class="btn">I'm feeling lucky</button>
+</div>
+
+<style>
+  body {
+    font-family: sans-serif;
+  }
+
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    /* Adding borders are helpful for debugging */
+    /* border: 1px solid black; */
+  }
+
+  .btn {
+    padding: 10px;
+    margin: 0 5px;
+    border: 0;
+    color: #333333;
+    background-color: #f8f9fa;
+  }
+
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-input {
+    margin: 10px 0;
+    padding: 12px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #b8b9bb;
+    width: 50%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  li {
+    margin: 0 0.5rem;
+  }
+
+  .header-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+  }
+
+  .header-link:hover {
+    text-decoration: underline;
+  }
+</style>

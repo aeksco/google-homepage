@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <!-- Imports Tailwind CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
+      integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w=="
+      crossorigin="anonymous"
+    />
+    <title>Tailwind Example</title>
+  </head>
+  <body>
+    <div class="flex justify-between px-5 py-5">
+      <ul class="flex flex-row">
+        <li><a class="px-2" href="#about">About</a></li>
+        <li><a class="px-2" href="store.asp">Store</a></li>
+      </ul>
+
+      <ul class="flex flex-row">
+        <li><a class="px-2" href="images.asp">Images</a></li>
+        <li><a class="px-2" href="gmail.asp">Gmail</a></li>
+      </ul>
+    </div>
+
+    <div class="flex justify-center">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+      />
+    </div>
+
+    <form class="flex justify-center" id="form">
+      <input
+        type="search"
+        class="border w-full max-w-lg rounded-full py-2 px-2"
+      />
+    </form>
+
+    <div class="flex justify-center">
+      <button
+        class="bg-gray-200 px-2 py-2 mx-2 rounded-md text-gray-800 hover:bg-gray-300"
+      >
+        Google Search
+      </button>
+      <button
+        class="bg-gray-200 px-2 py-2 mx-2 rounded-md text-gray-800 hover:bg-gray-300"
+      >
+        I'm feeling lucky
+      </button>
+    </div>
+  </body>
+</html>
